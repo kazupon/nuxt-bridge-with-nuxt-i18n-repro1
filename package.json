@@ -1,0 +1,20 @@
+{
+  "name": "nuxt-bridge-repro-with-nuxt-i18n",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt dev",
+    "build": "nuxt build",
+    "start": "node .output/server/index.mjs",
+    "generate": "nuxt generate",
+    "postinstall": "yarn upgrade"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@nuxt/bridge": "npm:@nuxt/bridge-edge",
+    "core-js": "^3.9.1",
+    "nuxt-edge": "latest"
+  },
+  "keywords": [],
+  "description": ""
+}
